@@ -3,19 +3,20 @@ ALTERAÇÕES DE ESTOQUE - TINTAS (comparação das 231 telas com as 23 fotos)
 Regras usadas: vale o anotado à mão na foto; setas na tela indicam o campo errado; linhas riscadas na tela foram ignoradas
 (risco ambíguo: considerado a linha onde o traço começa à esquerda); lote que difere 1 caractere entre foto e tela: mantido o da tela;
 "SEM LOTE" na tela = lote existe na foto mas não no sistema (cadastrar); XX não é usado como lote; quantidades em g convertidas para kg (÷1000);
-lote que está na tela mas não na foto = zerar; validade menor que a fabricação = ano da validade +1.
+lote que está na tela mas não na foto = zerar; validade menor que a fabricação = ano da validade +1;
+datas diferentes da foto são corrigidas mesmo sem seta; "05"/"07" escritos na foto = 5 / 7.
 
-Resumo: 342 alterações apontadas por seta, 27 divergências sem seta (conferir), 34 lotes a cadastrar, 36 dúvidas/avisos.
+Resumo: 362 alterações apontadas por seta, 7 divergências sem seta (conferir), 34 lotes a cadastrar, 32 dúvidas/avisos.
 
 PNG 1 - CTAF031
   - Estoque (27): 1,5 -> 1,3
-  - Dt. Fabricação (27): (vazio) -> 13/11/2023 [sem seta - conferir]
-  - Dt. Validade (27): (vazio) -> 13/11/2026 [sem seta - conferir]
+  - Dt. Fabricação (27): (vazio) -> 13/11/2023
+  - Dt. Validade (27): (vazio) -> 13/11/2026
 
 PNG 2 - TPIA141
   - Estoque (H078NAF0): 0,151 -> 6
-  - Dt. Fabricação (H078NAF0): (vazio) -> 02/04/2026 [sem seta - conferir]
-  - Dt. Validade (H078NAF0): (vazio) -> 02/04/2028 [sem seta - conferir]
+  - Dt. Fabricação (H078NAF0): (vazio) -> 02/04/2026
+  - Dt. Validade (H078NAF0): (vazio) -> 02/04/2028
 
 PNG 3 - CTAL119
   - Estoque (sem controle): 25 -> 12
@@ -57,7 +58,7 @@ PNG 14 - TPIA163
   - Dt. Validade (214062): 10/08/2027 -> 06/12/2027
 
 PNG 15 - CTAM095
-  - Estoque (7590008): 1,4 -> 0,2
+  - Estoque (7590008): 1,4 -> 2
   - Dt. Validade (7590008): 20/01/2027 -> 21/07/2027
 
 PNG 17 - CTAL061
@@ -189,7 +190,7 @@ PNG 55 - CTAM018
 
 PNG 56 - CTAM097
   - Estoque (670069): 5 -> 2,5
-  - CADASTRAR lote 665012?: qtd 3 kg, fab 08/11/24, val 08/11/26 (Lote da foto não aparece na tela)
+  - CADASTRAR lote 665012: qtd 3 kg, fab 08/11/24, val 08/11/26 (Lote da foto não aparece na tela)
 
 PNG 57 - CTAM083
   - Estoque (623920): 2,7 -> 3,1
@@ -204,7 +205,7 @@ PNG 59 - CTAM080
   - Estoque (30153081-*-): 27,6841 -> 5 kg
   - Dt. Validade (30153081-*-): 31/07/2027 -> 11/07/2027
   - Estoque (30153081-*-): 0,1118 -> 0
-  - CADASTRAR lote 30162501-*-*-1: qtd 0,5 (duvidoso), fab 09/10/26, val 30/10/28 (Lote da foto não aparece na tela)
+  - CADASTRAR lote 30162501-*-*-1: qtd 5, fab 09/10/26, val 30/10/28 (Lote da foto não aparece na tela)
   - CADASTRAR lote 30157871-*-*-1: qtd 18 kg, fab 09/10/26, val 30/09/27 (Lote da foto não aparece na tela)
 
 PNG 60 - CTAM079
@@ -229,15 +230,15 @@ PNG 65 - CTAE005
 
 PNG 66 - CTAM001
   - Estoque (336306/26): 15,569 -> 10
-  - Dt. Fabricação (336306/26): 08/10/2026 -> 18/10/2026 [sem seta - conferir]
-  - Dt. Validade (336306/26): 08/10/2028 -> 18/10/2028 [sem seta - conferir]
+  - Dt. Fabricação (336306/26): 08/10/2026 -> 18/10/2026
+  - Dt. Validade (336306/26): 08/10/2028 -> 18/10/2028
 
 PNG 67 - CTAM148
   - Estoque (30138531-*-): 0 -> 2,7
 
 PNG 68 - CTAM114
   - Estoque (611977): 4 -> 3,4
-  - Dt. Fabricação (611977): 12/12/2023 -> 12/12/2025 [sem seta - conferir]
+  - Dt. Fabricação (611977): 12/12/2023 -> 12/12/2025
   - Dt. Validade (611977): 11/12/2026 -> 12/12/2027
 
 PNG 69 - CTAM107
@@ -276,7 +277,7 @@ PNG 77 - CTAM010
 
 PNG 78 - CTAM012
   - CADASTRAR lote 330356/26: qtd 10,6, fab 01/07/26, val 01/07/28 (Tela marcada SEM LOTE)
-  - CADASTRAR lote 325338/26: qtd 0,5 kg (duvidoso), fab 09/04/26, val 09/04/28 (Lote extra anotado na foto (entrada nova))
+  - CADASTRAR lote 325338/26: qtd 5 kg, fab 09/04/26, val 09/04/28 (Lote extra anotado na foto (entrada nova))
 
 PNG 79 - CTAM082
   - CADASTRAR lote 30167669-*-*-1: qtd 37, fab 09/10/26, val 29/04/28 (Tela marcada SEM LOTE)
@@ -285,7 +286,7 @@ PNG 80 - CTAD003
   - Estoque (697168): 5,972 -> 5,8
 
 PNG 81 - CTAM042
-  - Estoque (314526/26): 3,485 -> 0,7 kg
+  - Estoque (314526/26): 3,485 -> 7 kg
   - Dt. Fabricação (314526/26): (vazio) -> 10/10/2025
   - CADASTRAR lote 288677/24: qtd 3 kg, fab 07/08/24, val 07/08/26 (Lote da foto não aparece na tela)
 
@@ -309,7 +310,7 @@ PNG 85 - CTAM087
 PNG 86 - CTAM077
   - Estoque (30152534-*-): 19,5887 -> 27,9
   - Dt. Validade (30152534-*-): 30/06/2027 -> 11/06/2027
-  - CADASTRAR lote 30173422-*-*-1: qtd 0,7 kg (duvidoso), fab 09/10/26, val 30/07/28 (Lote da foto não aparece na tela)
+  - CADASTRAR lote 30173422-*-*-1: qtd 7 kg, fab 09/10/26, val 30/07/28 (Lote da foto não aparece na tela)
 
 PNG 87 - CTAM015
   - Estoque (734101): 4,9905 -> 5
@@ -321,7 +322,7 @@ PNG 88 - CTAA013
 
 PNG 89 - CTAM009
   - Estoque (316753/25): 2,1 -> 1,4
-  - CADASTRAR lote 332821/26?: qtd 0,7 kg (duvidoso), fab 12/08/26, val 12/08/28 (Lote da foto não aparece na tela)
+  - CADASTRAR lote 332821/26?: qtd 7 kg, fab 12/08/26, val 12/08/28 (Lote da foto não aparece na tela)
 
 PNG 90 - TPIA151
   - Estoque (D00032/26): 5,0318 -> 5 kg
@@ -453,7 +454,7 @@ PNG 125 - TPIA022
 
 PNG 126 - TPIA147
   - Estoque (D00135/26): 70,57 -> 69
-  - Dt. Fabricação (D00135/26): 29/09/2026 -> 29/09/2025 [sem seta - conferir]
+  - Dt. Fabricação (D00135/26): 29/09/2026 -> 29/09/2025
   - Dt. Validade (D00135/26): 28/09/2029 -> 29/09/2028
   - Estoque (D00135/26): 19,7496 -> 0
   - Estoque (D00047/26): 24,1776 -> 0
@@ -475,12 +476,12 @@ PNG 129 - TPIA037
 
 PNG 130 - TPIA038
   - Estoque (D00142/26): 18 -> 18,5
-  - Dt. Validade (D00142/26): 30/09/2026 -> 30/09/2029 [sem seta - conferir]
+  - Dt. Validade (D00142/26): 30/09/2026 -> 30/09/2029
   - Estoque (D00030/26): 18 -> 0
 
 PNG 131 - TPIA039
   - Estoque (D0137/25): 16,9 -> 16
-  - Dt. Fabricação (D0137/25): 29/05/2025 -> 29/05/2026 [sem seta - conferir]
+  - Dt. Fabricação (D0137/25): 29/05/2025 -> 29/05/2026
 
 PNG 132 - TPIA176
   - Dt. Fabricação (D00083/26): 11/09/2026 -> 03/09/2026
@@ -555,7 +556,7 @@ PNG 148 - TPIA081
 
 PNG 149 - TPIA082
   - Estoque (D00103/26): -11,264 -> 10 L
-  - Dt. Validade (D00103/26): 10/09/2028 -> 10/09/2027 [sem seta - conferir]
+  - Dt. Validade (D00103/26): 10/09/2028 -> 10/09/2027
 
 PNG 150 - TPIA083
   - Estoque (D00045/26): 15,25 -> 15 L
@@ -616,7 +617,7 @@ PNG 163 - TPIA006
 
 PNG 164 - TPIA008
   - Estoque (D00145/26): 12,9937 -> 30
-  - Dt. Validade (D00145/26): 02/10/2026 -> 02/10/2029 [sem seta - conferir]
+  - Dt. Validade (D00145/26): 02/10/2026 -> 02/10/2029
 
 PNG 165 - TPIA060
   - Estoque (D0293/25): 6,0756 -> 6,5
@@ -649,10 +650,10 @@ PNG 172 - TPIA015
 
 PNG 173 - TPIA012
   - Estoque (D00174/26): 41,68 -> 80 [sem seta - conferir]
-  - Dt. Fabricação (D00174/26): 10/11/2026 -> 30/10/2026 [sem seta - conferir]
-  - Dt. Validade (D00174/26): 09/11/2029 -> 30/10/2029 [sem seta - conferir]
+  - Dt. Fabricação (D00174/26): 10/11/2026 -> 30/10/2026
+  - Dt. Validade (D00174/26): 09/11/2029 -> 30/10/2029
   - Estoque (D00147/26): 23,9194 -> 14 [sem seta - conferir]
-  - Dt. Validade (D00147/26): 04/10/2029 -> 05/10/2029 [sem seta - conferir]
+  - Dt. Validade (D00147/26): 04/10/2029 -> 05/10/2029
 
 PNG 174 - TPIA069
   - Estoque (T00477/26): 9,2452 -> 8,6
@@ -675,7 +676,7 @@ PNG 178 - TPIA011
 
 PNG 179 - TPIA019
   - Estoque (D00160/26): 19,357 -> 17,2 [sem seta - conferir]
-  - Dt. Validade (D00160/26): 19/10/2029 -> 20/10/2029 [sem seta - conferir]
+  - Dt. Validade (D00160/26): 19/10/2029 -> 20/10/2029
 
 PNG 180 - TPIA066
   - Estoque (T00712/26): 11,6761 -> 11,3
@@ -693,7 +694,7 @@ PNG 183 - TPIA040
 
 PNG 184 - TPIA041
   - Estoque (D0242/25): 1,213 -> 0,3 kg (convertido de g)
-  - Dt. Fabricação (D0242/25): 15/09/2025 -> 15/09/2026 [sem seta - conferir]
+  - Dt. Fabricação (D0242/25): 15/09/2025 -> 15/09/2026
 
 PNG 185 - TPIA043
   - Estoque (D00128/26): 9,8981 -> 6,8
@@ -742,11 +743,11 @@ PNG 196 - TPIA067
 
 PNG 197 - TPIA064
   - Estoque (T00487/26): 14,276 -> 14,4
-  - Dt. Fabricação (T00487/26): 09/04/2025 -> 09/04/2026 [sem seta - conferir]
+  - Dt. Fabricação (T00487/26): 09/04/2025 -> 09/04/2026
 
 PNG 198 - TPIA145
   - Estoque (D0284/25): 4,0955 -> 4,5
-  - Dt. Fabricação (D0284/25): 29/10/2025 -> 29/10/2026 [sem seta - conferir]
+  - Dt. Fabricação (D0284/25): 29/10/2025 -> 29/10/2026
   - Dt. Validade (D0284/25): 29/10/2028 -> 29/10/2029
 
 PNG 199 - TPIA061
@@ -820,7 +821,7 @@ PNG 217 - CTAM071
 
 PNG 218 - CTAM066
   - Estoque (18255): 2,827 -> 2,5
-  - Dt. Fabricação (18255): 12/08/2025 -> 12/03/2026 [sem seta - conferir]
+  - Dt. Fabricação (18255): 12/08/2025 -> 12/03/2026
 
 PNG 219 - CTAM065
   - Estoque (18393): 11,3615 -> 12,5
