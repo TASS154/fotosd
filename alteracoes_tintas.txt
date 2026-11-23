@@ -4,9 +4,9 @@ Regras usadas: vale o anotado à mão na foto; setas na tela indicam o campo err
 (risco ambíguo: considerado a linha onde o traço começa à esquerda); lote que difere 1 caractere entre foto e tela: mantido o da tela;
 "SEM LOTE" na tela = lote existe na foto mas não no sistema (cadastrar); XX não é usado como lote; quantidades em g convertidas para kg (÷1000);
 lote que está na tela mas não na foto = zerar; validade menor que a fabricação = ano da validade +1;
-datas diferentes da foto são corrigidas mesmo sem seta; "05"/"07" escritos na foto = 5 / 7.
+datas e quantidades seguem sempre a foto, mesmo sem seta; controle só é alterado quando há seta; "05"/"07" = 5 / 7.
 
-Resumo: 362 alterações apontadas por seta, 7 divergências sem seta (conferir), 34 lotes a cadastrar, 32 dúvidas/avisos.
+Resumo: 366 alterações, 34 lotes a cadastrar, 35 dúvidas/avisos.
 
 PNG 1 - CTAF031
   - Estoque (27): 1,5 -> 1,3
@@ -560,12 +560,10 @@ PNG 149 - TPIA082
 
 PNG 150 - TPIA083
   - Estoque (D00045/26): 15,25 -> 15 L
-  - Controle (D00045/26): D00045/26 -> 83948 [sem seta - conferir]
   - Dt. Fabricação (D00045/26): 13/08/2026 -> 31/03/2026
   - Dt. Validade (D00045/26): (vazio) -> 31/03/2027
 
 PNG 151 - TPIA084
-  - Controle (D00150/26): D00150/26 -> 83799 [sem seta - conferir]
   - Dt. Fabricação (D00150/26): 08/10/2026 -> 13/04/2024
   - Dt. Validade (D00150/26): (vazio) -> 01/12/2030
 
@@ -649,10 +647,10 @@ PNG 172 - TPIA015
   - Dt. Validade (T00873/26): 16/06/2029 -> 26/06/2029
 
 PNG 173 - TPIA012
-  - Estoque (D00174/26): 41,68 -> 80 [sem seta - conferir]
+  - Estoque (D00174/26): 41,68 -> 80
   - Dt. Fabricação (D00174/26): 10/11/2026 -> 30/10/2026
   - Dt. Validade (D00174/26): 09/11/2029 -> 30/10/2029
-  - Estoque (D00147/26): 23,9194 -> 14 [sem seta - conferir]
+  - Estoque (D00147/26): 23,9194 -> 14
   - Dt. Validade (D00147/26): 04/10/2029 -> 05/10/2029
 
 PNG 174 - TPIA069
@@ -675,7 +673,7 @@ PNG 178 - TPIA011
   - Dt. Validade (D00171/26): 27/10/2029 -> 28/10/2029
 
 PNG 179 - TPIA019
-  - Estoque (D00160/26): 19,357 -> 17,2 [sem seta - conferir]
+  - Estoque (D00160/26): 19,357 -> 17,2
   - Dt. Validade (D00160/26): 19/10/2029 -> 20/10/2029
 
 PNG 180 - TPIA066
@@ -808,7 +806,6 @@ PNG 213 - VTDL007
 
 PNG 214 - VAEM004
   - Estoque (6398): 2 -> 1
-  - Controle (6398): 6398 -> 05758 [sem seta - conferir]
 
 PNG 215 - VTPR004
   - Estoque (T00601/26): 10,9 -> 14
@@ -836,7 +833,7 @@ PNG 222 - VTSL016
   - Estoque (T01475/26): 1 -> 69
 
 PNG 223 - VTSL004
-  - Estoque (T01446/26): 1 -> 75 [sem seta - conferir]
+  - Estoque (T01446/26): 1 -> 75
 
 PNG 224 - VT114050
   - CADASTRAR lote T00585/26: qtd 17,97, fab 05/05/26, val 05/05/29 (Tela marcada SEM LOTE)
